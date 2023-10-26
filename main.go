@@ -14,6 +14,9 @@ func mul(a, b int) int {
 func div(a, b float64) float64 {
 	return a / b
 }
+func display(msg string)  {
+	fmt.Println(msg)
+}
 
 func main() {
 	fmt.Println("First Commit")
@@ -21,4 +24,5 @@ func main() {
 	fmt.Println(sub(1, 2))
 	fmt.Println(mul(1, 2))
 	fmt.Println(div(1, 2))
+	display("Hello")
 }
